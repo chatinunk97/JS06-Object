@@ -7,8 +7,8 @@ const user = {
 };
 
 user.isActive = false;
-console.log(user); // *
+console.log(user); // * Shows the user's object structure and return undefined
 user = {};
-console.log(user); // **
+console.log(user); // ** show error user is a CONST cannot be reassign
 
 ```
