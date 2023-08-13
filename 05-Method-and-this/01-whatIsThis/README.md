@@ -8,5 +8,5 @@ let user = {
   }
 };
 
-(user.sayHi)(); // *
+(user.sayHi)(); // * it will show "John" since this refers to the execution context that function user created upon execution
 ```
